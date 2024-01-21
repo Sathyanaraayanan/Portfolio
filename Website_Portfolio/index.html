@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <section class="container" id="myhome">
+        <nav>
+            <div class="logo">Portfolio <b>.</b></div>
+            <ul class="navItem">
+                <li>
+                    <a href="#myhome">Home</a>
+                    <a href="#myabout">About</a>
+                    <a href="#myskill">Skills</a>
+                </li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/sathya-narayanan-2ba48b1ab/"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello,<br> I'm Sathyanarayanan J</span>
+                <h1>And I'm a <br><span class="multiText"></span></h1>
+                <p>Detail-oriented analyst with proven ability to accurately interpret data using analytical tools and identifying 
+                    correlation and business trends. Proficient in the use of software packages.</p>
+                <div class="btns">
+                    <button><a href="cv/Sathyanarayanan_resume.pdf" download="Resume" >Download cv</a> <i class="fa fa-download"></i></button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="img/img2.png" id="splash" alt="">
+                    <img src="img/mypic.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="myabout">
+        <div class="about-img">
+            <img src="img/m1.png" alt="">
+        </div>
+        <div class="about-content">
+            <h1 >About <span class="multiText">Me</span></h1>
+            <h3>Business Analyst</h3>
+            <p>As a Analyst, implements innovative solutions to business problems using data analytical tools like Python,SQL and Data visualization. Evaluate business processes,operations,products,services to identify the need for change</p>
+            
+        </div>
+        
+        
+
+    </section>
+
+    <section class="skill" id="myskill">
+            <h1 class="title">My <span class="multiText">Skill</span> </h1>
+            <div class="row">
+                <div class="course-col">
+                    <h3>PYTHON  <span class="multiText"><i class="fa fa-python"></i></span></h3>
+                    <p>Fluent in Python Fundamental which is more useful to manipulate data and to create attractive visualization. Effecient in terms of business trends and identifying correlations within the data-statically.</p>
+                </div>
+                <div class="course-col">
+                    <h3>DATA VISUALIZATION<span class="multiText"><i class="fa fa-bar-chart"></i></span></h3></h3>
+                    <p> Proficient in designing tools using both technical and non-technical software like Power BI, Tableau and Illustrator. More helpful to find business trends.</p>
+                </div>
+                <div class="course-col">
+                    <h3>MS EXCEL <span class="multiText"><i class="fa fa-table"></i></span></h3></i></h3>
+                    <p>Can perform data analysis faster and more efficiently, track business expenses, and collaborate with others on projects.It helps you to organize, analyze, present, and share data effectively, whether for work or for personal needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect =new Typed(".multiText",{
+            strings : ["Analyst","Developer"],
+            loop:true,
+            typeSpeed :100,
+            backSpeed :80,
+            backDelay :1500
+        })
+    </script>
+</body>
+</html>
